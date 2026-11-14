@@ -1,0 +1,143 @@
+{
+  "schema": 1,
+  "modules": [
+    {
+      "id": "python",
+      "packageName": "com.fongmi.runtime.python",
+      "compatibilityId": "catvod-python-plugin-v4",
+      "versionCode": 113,
+      "versionName": "1.1.3",
+      "artifacts": [
+        {
+          "abi": "arm64-v8a",
+          "minSdk": 24,
+          "size": 39134956,
+          "sha256": "2c9f20d06c1bca3a2c2dd93ad4e7393703473a00155f6a52c26cd0f8510bda59",
+          "url": "https://raw.githubusercontent.com/ciweihaha/TV-runtime/main/module/runtime-python-1.1.3-arm64-v8a.apk"
+        },
+        {
+          "abi": "armeabi-v7a",
+          "minSdk": 24,
+          "size": 32901889,
+          "sha256": "9effefe63243bbde11f4b960080fe98afd4eff927c0ccaeab9b30f15bba0aace",
+          "url": "https://raw.githubusercontent.com/ciweihaha/TV-runtime/main/module/runtime-python-1.1.3-armeabi-v7a.apk"
+        }
+      ]
+    },
+    {
+      "id": "nodejs",
+      "packageName": "com.fongmi.runtime.nodejs",
+      "compatibilityId": "catvod-nodejs-plugin-v3",
+      "versionCode": 107,
+      "versionName": "1.0.7",
+      "artifacts": [
+        {
+          "abi": "arm64-v8a",
+          "minSdk": 24,
+          "size": 49942996,
+          "sha256": "bb7d48fe76ed119e2631fb99fc692ed831ecea385019c6e7bf7c9dd666f7ab07",
+          "url": "https://raw.githubusercontent.com/ciweihaha/TV-runtime/main/module/runtime-nodejs-1.0.7-arm64-v8a.apk"
+        },
+        {
+          "abi": "armeabi-v7a",
+          "minSdk": 24,
+          "size": 43387535,
+          "sha256": "ec4ee1e473dbda083627b057fa0f4724ba9b927b38a4efb855f946c251d60d7c",
+          "url": "https://raw.githubusercontent.com/ciweihaha/TV-runtime/main/module/runtime-nodejs-1.0.7-armeabi-v7a.apk"
+        }
+      ]
+    },
+    {
+      "id": "quickjs",
+      "packageName": "com.fongmi.runtime.quickjs",
+      "compatibilityId": "fongmi-quickjs-ng-0.17-v13",
+      "versionCode": 111,
+      "versionName": "1.1.1",
+      "artifacts": [
+        {
+          "abi": "arm64-v8a",
+          "minSdk": 24,
+          "size": 2415484,
+          "sha256": "cd4e5362ca923e3b85bd5cfc607509e8a11ebf899ccda46435cf1ec31c4bfd88",
+          "url": "https://raw.githubusercontent.com/ciweihaha/TV-runtime/main/module/runtime-quickjs-1.1.1-arm64-v8a.apk"
+        },
+        {
+          "abi": "armeabi-v7a",
+          "minSdk": 24,
+          "size": 1939225,
+          "sha256": "2b14b5d8e7485afce3b695147d67e3b33ef9c5f0ff0578d991f8c7d1ec0f599f",
+          "url": "https://raw.githubusercontent.com/ciweihaha/TV-runtime/main/module/runtime-quickjs-1.1.1-armeabi-v7a.apk"
+        }
+      ]
+    },
+    {
+      "id": "thunder",
+      "packageName": "com.fongmi.runtime.thunder",
+      "compatibilityId": "catvod-thunder-plugin-v1",
+      "versionCode": 5,
+      "versionName": "1.0.4",
+      "artifacts": [
+        {
+          "abi": "arm64-v8a",
+          "minSdk": 24,
+          "size": 6515622,
+          "sha256": "c6bd36133c10c0dc38b5e74225a12663cb2b7db021b33feaaa84a51be7f9e88e",
+          "url": "https://raw.githubusercontent.com/ciweihaha/TV-runtime/main/module/runtime-thunder-1.0.4-arm64-v8a.apk"
+        },
+        {
+          "abi": "armeabi-v7a",
+          "minSdk": 24,
+          "size": 4244879,
+          "sha256": "67cd25d104bc29983312658bca650be4aad6bec48504317d399e0aa96109ec17",
+          "url": "https://raw.githubusercontent.com/ciweihaha/TV-runtime/main/module/runtime-thunder-1.0.4-armeabi-v7a.apk"
+        }
+      ]
+    },
+    {
+      "id": "bdj",
+      "packageName": "com.fongmi.runtime.bdj",
+      "compatibilityId": "libbluray-1.4.1-openjdk8-zero-v1",
+      "versionCode": 2,
+      "versionName": "1.0.1",
+      "artifacts": [
+        {
+          "abi": "arm64-v8a",
+          "minSdk": 24,
+          "size": 41296513,
+          "sha256": "ac2dc61e5912bd051c872ab5ac1dea920a608f1de2e98bf95da1e6254e861d51",
+          "url": "https://raw.githubusercontent.com/ciweihaha/TV-runtime/main/module/runtime-bdj-1.0.1-arm64-v8a.apk"
+        },
+        {
+          "abi": "armeabi-v7a",
+          "minSdk": 24,
+          "size": 40858241,
+          "sha256": "c84b4caba2b950c6de28330b3da2750524b8c85bc03225bc0d15c17a3737958b",
+          "url": "https://raw.githubusercontent.com/ciweihaha/TV-runtime/main/module/runtime-bdj-1.0.1-armeabi-v7a.apk"
+        }
+      ]
+    },
+    {
+      "id": "mpv",
+      "packageName": "com.fongmi.runtime.mpv",
+      "compatibilityId": "mpv-jni-ffmpeg-shared-v1",
+      "versionCode": 111,
+      "versionName": "1.1.1",
+      "artifacts": [
+        {
+          "abi": "arm64-v8a",
+          "minSdk": 24,
+          "size": 18186515,
+          "sha256": "757d70bbe26464716dcdf38a70223794ab0e2c4e4cc628086e2929a62ce0a9f7",
+          "url": "https://raw.githubusercontent.com/ciweihaha/TV-runtime/main/module/runtime-mpv-1.1.1-arm64-v8a.apk"
+        },
+        {
+          "abi": "armeabi-v7a",
+          "minSdk": 24,
+          "size": 14943204,
+          "sha256": "216e007b4f64a7c626b54f6742108e3dac44db540ef7093ca221881323501116",
+          "url": "https://raw.githubusercontent.com/ciweihaha/TV-runtime/main/module/runtime-mpv-1.1.1-armeabi-v7a.apk"
+        }
+      ]
+    }
+  ]
+}
