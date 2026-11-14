@@ -24,6 +24,7 @@ jobs:
       - name: Download oversized files from upstream and verify sha256
         run: |
           set -euo pipefail
+          mkdir -p module build
           curl --fail --location --retry 3 --retry-all-errors \
             --connect-timeout 20 --max-time 600 \
             "https://github.com/FongMi/Release/releases/download/module/runtime-nodejs-1.0.7-arm64-v8a.apk" \
